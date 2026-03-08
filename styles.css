@@ -23,7 +23,7 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 1.6;
   background: linear-gradient(90deg, #d4a574 0%, #c9956f 25%, #d4a574 50%, #c9956f 75%, #d4a574 100%);
   background-size: 200px 200px;
@@ -47,6 +47,14 @@ header a, header .nav-link {
 }
 
 header .nav-link.active {
+  background-color: #8b5a2b !important;
+}
+
+footer a, footer .nav-link {
+  color: #f5f1eb !important;
+}
+
+footer .nav-link.active {
   background-color: #8b5a2b !important;
 }
 
